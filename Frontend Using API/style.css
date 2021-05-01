@@ -117,8 +117,8 @@ nav ul ul li{
 .sportspage .hero {
     background-image: url("../Frontend Using API/abigail-keenan-8-s5QuUBtyM-unsplash.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: -300px;
+    background-size: 100% 750px;
+    background-position-y: -220px;
     height: 450px;
     width: 100%;
     margin-bottom: 50px;

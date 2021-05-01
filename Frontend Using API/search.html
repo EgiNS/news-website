@@ -35,6 +35,9 @@
         <h1>SEARCH HERE</h1>
         </div>
         
+         <!-- <div class="container">
+            <div id="hero"></div>
+        </div> -->
     </div>
 
 
@@ -56,6 +59,8 @@
 
         function retrieve(e) {
 
+            newsList.innerHTML = ''
+            
             e.preventDefault()
 
             let topic = input.value;
@@ -89,7 +94,7 @@
 
                     // li.appendChild(a);
                     // li.appendChild(p);
-                    div.appendChild(a)
+                    div.append(a)
                     span.appendChild(pub_date)
                     div.appendChild(span)
                     div.appendChild(p)
